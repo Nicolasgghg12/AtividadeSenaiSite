@@ -1,0 +1,55 @@
+#Wrap .contemconteudos .partecima{
+    margin-bottom: 20px;
+    border-bottom: 2px black solid;
+}
+#Wrap .contemconteudos  .partecima h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#Wrap .contemconteudos .conterjogos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+#Wrap .contemconteudos .conterjogos .aparecerjogos{
+    padding: 10px;
+    border: 2px black dotted;
+    margin: 5px;
+    background: gainsboro;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#Wrap .contemconteudos .conterjogos .aparecerjogos h2{
+    width: 100%;
+    text-align: center;
+}
+#Wrap .contemconteudos .conterjogos .aparecerjogos.aparecerjogos:hover{
+    background: white;
+}
+#Wrap .contemconteudos .conterjogos .aparecerjogos img{
+    max-width: 90%;
+    border: solid black 2px;
+    margin-bottom: 5px;
+}
+
+#Wrap .contemconteudos .conterjogos .aparecerjogos .informacaojogo{
+    position: absolute;
+    background-color: gainsboro;
+    width: 100%;
+    left: 0;
+    top: 101%;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+#Wrap .contemconteudos .conterjogos .aparecerjogos .informacaojogo p{
+    text-align: justify;
+}

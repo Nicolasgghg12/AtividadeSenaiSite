@@ -1,0 +1,86 @@
+
+/* -!- DIV  Sobrenós -!- */
+#Wrap .contemconteudos .sobrenos{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: black 3px solid;
+    padding: 5px;
+    margin: 20px 0;
+    background: gainsboro;
+}
+#Wrap .contemconteudos .sobrenos .esquerda{
+    width: 30%;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+#Wrap .contemconteudos .sobrenos .direita{
+    width: 50%;
+    font-size: 12px;
+}
+#Wrap .contemconteudos .sobrenos .direita p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
+
+/* -!- DIV  Descontos -!- */
+
+#Wrap .contemconteudos .descontos{
+    width: 100%;
+    border: black 3px solid;
+    text-align: center;
+    background: gainsboro;
+}   
+#Wrap .contemconteudos .descontos img{
+    max-width: 50%;
+    border: 2px solid black;
+}   
+
+/* -!- DIV  Novidades -!- */
+
+#Wrap .contemconteudos .novidades{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: black 3px solid;
+    padding: 5px;
+    margin: 20px 0;
+    background: gainsboro;
+}
+#Wrap .contemconteudos .novidades .esquerda{
+    width: 30%;
+    padding: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+#Wrap .contemconteudos .novidades .direita{
+    width: 45%;
+    font-size: 12px;
+}
+#Wrap .contemconteudos .novidades .direita p{
+    text-align: justify;
+    text-indent: 1.5em;
+}
+#Wrap .contemconteudos .contercarrosseu{
+    margin: 20px 0;
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border: black 4px solid;
+}
+#Wrap .contemconteudos .contercarrosseu .btnProx,#Wrap .contemconteudos .contercarrosseu .btnAnte{
+    line-height: 400px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: bold;
+    cursor: pointer;
+}
+#Wrap .contemconteudos .contercarrosseu .btnProx{
+    float: right;
+}
+#Wrap .contemconteudos .contercarrosseu .btnAnte{
+    float: left;
+}

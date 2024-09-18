@@ -1,0 +1,29 @@
+#Wrap .contemconteudos .Faq .pergunta{
+    width: 100%;
+    padding: 5px;
+    border: 2px solid black;
+    text-align: justify;
+    background: gainsboro;
+}
+#Wrap .contemconteudos .Faq .pergunta h2{
+    border: 2px solid black;
+    display: inline;
+    text-transform: uppercase;
+}
+#Wrap .contemconteudos .Faq .pergunta p{
+    margin-top: 10px;
+    text-indent: 1.5em;
+}
+#Wrap .contemconteudos .Faq .palavrarespostas h3{
+    margin: 20px;
+    width: 100%;
+    border-bottom: black solid 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#Wrap .contemconteudos .Faq .conteudo{
+    background: gainsboro;
+    padding: 5px;
+    margin: 20px 0;
+    text-align: justify;
+}

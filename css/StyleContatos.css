@@ -1,0 +1,53 @@
+
+#Wrap .contemconteudos .Formularios form{
+    text-align: center;
+    
+}
+#Wrap .contemconteudos .Formularios form .emcima{
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    background: gainsboro;
+}
+#Wrap .contemconteudos .Formularios form .emcima div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+#Wrap .contemconteudos .Formularios form .emcima div label{
+    text-align: center;
+    width: 50%;
+}
+#Wrap .contemconteudos .Formularios form .emcima div input{
+    width: 50%;
+    text-align: center;
+    margin: 10px;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;
+}
+#Wrap .contemconteudos .Formularios form .centro{
+    width: 100%;
+    border: 2px solid black;
+    padding: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    background: gainsboro;
+}
+#Wrap .contemconteudos .Formularios form .centro textarea{
+    width: 50%;
+    height: 60px;
+    margin: 0px 5px;
+    resize: none;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 2px;
+}
+#Wrap .contemconteudos .Formularios form button{
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+#ConterLogin{
+    min-width: 300px;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px black solid;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+}
+#ConterCadastro button{
+    margin: 10px;
+}
+#ConterCadastro{
+    min-width: 300px;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px black solid;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    z-index: 2;
+    background-color: white;
+}
+#ConterCadastro button{
+    margin: 10px;
+}
